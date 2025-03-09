@@ -12,15 +12,16 @@ int main(){
     cout << "Enter password\n";
     cin >> password;
 
-    if(username == "Kishiannn" && password == "Zzenos"){
+    if(username == "Kishiannn" && password == "Zzenos")
+    {
         cout << "Welcome " + username;
         security = 5;
     }
-    if(username == "Prettykey" && password == "Lablab"){
+    else if(username == "Prettykey" && password == "Lablab"){
             cout << "Welcome " + username;
             security = 5;
     }
-    if(username == "Guest" || password == "Guest"){
+    else if(username == "Guest" || password == "Guest"){
         cout << "Welcome Guest";
         security = 1;
     }
